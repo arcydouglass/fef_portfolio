@@ -1,0 +1,16 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+img {
+	width: 90%;
+}
+
+.jumbotron {
+	width: 90%;
+}
+
+p {
+	width: 90%;
+}
