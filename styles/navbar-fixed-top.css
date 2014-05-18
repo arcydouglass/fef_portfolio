@@ -1,106 +1,127 @@
-/* line 4, SASS/navbar-fixed-top.scss */
-body {
-  padding-top: 70px;
+/* line 61, ../../../../Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 75%;
 }
 
-/* line 8, SASS/navbar-fixed-top.scss */
+/* line 64, ../../../../Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 12px;
+  line-height: 2em;
+}
+
+/* line 16, SASS/navbar-fixed-top.scss */
+body {
+  padding-top: 70px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 21, SASS/navbar-fixed-top.scss */
 a {
   color: black;
 }
 
-/* line 13, SASS/navbar-fixed-top.scss */
+/* line 25, SASS/navbar-fixed-top.scss */
+h2 {
+  font-size: 2.66667em;
+  line-height: 1.5em;
+}
+
+/* line 29, SASS/navbar-fixed-top.scss */
+h3 {
+  font-size: 2.33333em;
+  line-height: 1.71429em;
+}
+
+/* line 33, SASS/navbar-fixed-top.scss */
 img {
   width: 100%;
 }
 
-/* line 17, SASS/navbar-fixed-top.scss */
+/* line 37, SASS/navbar-fixed-top.scss */
 .jumbotron {
   width: 100%;
 }
 
-/* line 21, SASS/navbar-fixed-top.scss */
+/* line 41, SASS/navbar-fixed-top.scss */
 #contact p {
   width: 100%;
   font-size: 1.3em;
 }
 
-/* line 26, SASS/navbar-fixed-top.scss */
+/* line 46, SASS/navbar-fixed-top.scss */
 .projectDescription {
   font-size: 1.2em;
 }
 
-/* line 30, SASS/navbar-fixed-top.scss */
+/* line 50, SASS/navbar-fixed-top.scss */
 #contact {
   width: 60%;
 }
 
-/*Media Queries*/
-/* Smartphones (portrait and landscape) ----------- */
 @media all and (min-width: 320px) and (max-width: 480px) {
-  /* line 37, SASS/navbar-fixed-top.scss */
+  /* line 55, SASS/navbar-fixed-top.scss */
   #about p {
     font-size: 1.0em;
   }
 
-  /* line 41, SASS/navbar-fixed-top.scss */
+  /* line 59, SASS/navbar-fixed-top.scss */
   #contact {
     width: 100%;
   }
 
-  /* line 45, SASS/navbar-fixed-top.scss */
+  /* line 63, SASS/navbar-fixed-top.scss */
   #introduction {
     display: none;
   }
 
-  /* line 49, SASS/navbar-fixed-top.scss */
+  /* line 67, SASS/navbar-fixed-top.scss */
   .projectDescription {
     display: none;
   }
 }
 @media all and (min-width: 481px) and (max-width: 767px) {
-  /* line 57, SASS/navbar-fixed-top.scss */
+  /* line 75, SASS/navbar-fixed-top.scss */
   #about p {
     font-size: 1.0em;
   }
 
-  /* line 61, SASS/navbar-fixed-top.scss */
+  /* line 79, SASS/navbar-fixed-top.scss */
   #contact {
     width: 65%;
   }
 
-  /* line 65, SASS/navbar-fixed-top.scss */
+  /* line 83, SASS/navbar-fixed-top.scss */
   #introduction {
     width: 100%;
   }
 
-  /* line 69, SASS/navbar-fixed-top.scss */
+  /* line 87, SASS/navbar-fixed-top.scss */
   .projectDescription {
     font-size: 1.0em;
   }
 }
-/* iPads (portrait and landscape) ----------- */
 @media all and (min-width: 768px) {
-  /* line 78, SASS/navbar-fixed-top.scss */
+  /* line 95, SASS/navbar-fixed-top.scss */
   body {
     background: url("../images/BG.jpg") no-repeat center center fixed;
   }
 
-  /* line 82, SASS/navbar-fixed-top.scss */
+  /* line 100, SASS/navbar-fixed-top.scss */
   #about p {
     font-size: 1.3em;
   }
 
-  /* line 86, SASS/navbar-fixed-top.scss */
+  /* line 104, SASS/navbar-fixed-top.scss */
   #contact {
     width: 60%;
   }
 
-  /* line 90, SASS/navbar-fixed-top.scss */
+  /* line 108, SASS/navbar-fixed-top.scss */
   .container {
     max-width: 920px;
   }
 
-  /* line 95, SASS/navbar-fixed-top.scss */
+  /* line 113, SASS/navbar-fixed-top.scss */
   .projectDescription {
     font-size: 1.1em;
   }
